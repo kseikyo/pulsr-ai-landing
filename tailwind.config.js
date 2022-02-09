@@ -3,10 +3,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "light-blue": "#5AADFF", 
+        "light-blue": "#5AADFF",
         "light-purple": "#CA94FF",
-        "gray": "#626575"
-      }
+        gray: "#626575",
+      },
+      fontFamily: {
+        body: ["Poppins", "ui-sans-serif", "system-ui"],
+      },
     },
   },
   plugins: [],
