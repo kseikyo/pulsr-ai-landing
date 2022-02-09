@@ -29,10 +29,10 @@ export const Hero = () => {
             <div className="h-full rounded-2xl md:rounded-r-none bg-black">
               <div className="bg-gradient-to-r from-light-purple to-light-blue bg-clip-text">
                 <div className="flex flex-col gap-3 px-6 md:px-11 py-8">
-                  <h2 className="text-3xl md:text-5xl text-transparent">
+                  <span className="text-3xl md:text-5xl text-transparent">
                     Member's <br />
                     portal
-                  </h2>
+                  </span>
                   <p className="md:text-lg text-gray">Access Closed Beta</p>
                   <button className="w-12 md:w-14 rounded-full bg-gradient-to-r from-light-purple to-light-blue p-4">
                     <ArrowRightIcon className="md:h-6 md:w-6 w-4 h-4 text-black" />
