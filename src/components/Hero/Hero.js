@@ -8,15 +8,15 @@ export const Hero = () => {
   });
   return (
     <section className="my-24 max-w-full bg-black p-8">
-      <div className="relative text-center md:text-left flex flex-col md:flex-row max-w-full justify-between gap-8 p-4 md:p-8">
-        <div className="max-w-5xl md:pl-12">
+      <div className="relative flex max-w-full flex-col justify-between gap-8 p-4 md:flex-row md:p-8 md:text-left">
+        <div className="min-w-[50%] max-w-5xl md:pl-12">
           <div className="flex flex-col gap-4">
             <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl">
               <span className="block xl:inline">
                 Your visual discovery <br /> engine for NFTs
               </span>
             </h1>
-            <p className="text-xl md:text-2xl text-white/[.53]">
+            <p className="text-xl text-white/[.53] md:text-2xl">
               Discover, share and collect the next <span>{text}</span>
               <Cursor />
               <br />
@@ -24,19 +24,22 @@ export const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="md:absolute md:-right-10 md:top-0 md:bottom-0 flex md:w-96 w-full overflow-hidden md:min-h-[350]">
-          <div className="w-full rounded-2xl md:rounded-r-none bg-gradient-to-r from-light-purple to-light-blue p-1">
-            <div className="h-full rounded-2xl md:rounded-r-none bg-black">
-              <div className="bg-gradient-to-r from-light-purple to-light-blue bg-clip-text">
-                <div className="flex flex-col gap-3 px-6 md:px-11 py-8">
-                  <span className="text-3xl md:text-5xl text-transparent">
-                    Member's <br />
-                    portal
-                  </span>
-                  <p className="md:text-lg text-gray">Access Closed Beta</p>
-                  <button className="w-12 md:w-14 rounded-full bg-gradient-to-r from-light-purple to-light-blue p-4">
-                    <ArrowRightIcon className="md:h-6 md:w-6 w-4 h-4 text-black" />
-                  </button>
+        {/* <div className="md:absolute md:-right-10 md:top-0 md:bottom-0 flex md:w-96 w-full overflow-hidden md:min-h-[350]"> */}
+        <div className="md:mb-22 relative mb-56 w-screen md:w-screen">
+          <div className="absolute top-0 bottom-0 flex min-h-[300px] w-full overflow-hidden md:-top-10 md:-right-20 md:min-h-[350px] md:w-96">
+            <div className="w-full rounded-[50px] bg-gradient-to-r from-light-purple to-light-blue p-1 md:rounded-r-none">
+              <div className="h-full rounded-[50px] bg-black md:rounded-r-none">
+                <div className="bg-gradient-to-r from-light-purple to-light-blue bg-clip-text">
+                  <div className="flex flex-col gap-3 px-6 py-8 md:px-11">
+                    <span className="text-4xl text-transparent md:text-5xl">
+                      Member's <br />
+                      portal
+                    </span>
+                    <p className="text-sm text-gray md:text-lg">Access Closed Beta</p>
+                    <button className="mt-6 w-16 rounded-full bg-gradient-to-r from-light-purple to-light-blue p-4">
+                      <ArrowRightIcon className="h-8 w-8 text-black" />
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

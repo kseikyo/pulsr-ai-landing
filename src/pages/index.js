@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="h-full w-full bg-black">
       <Header />
-      <div className="overflow-hidden">
+      <div className="overflow-hidden md:mb-8">
         <Hero />
       </div>
       <main className="mb-24 bg-black md:mx-auto md:max-w-[1650px]">
