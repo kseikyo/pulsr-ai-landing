@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+
+}
+
+@layer components {
+  .btn-cta {
+    @apply inline-flex items-center rounded-full border border-transparent bg-gradient-to-r from-light-purple to-light-blue px-12 py-2 text-base font-medium text-black shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2;
+  }
+}
