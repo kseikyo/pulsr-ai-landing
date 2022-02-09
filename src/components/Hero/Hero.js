@@ -7,8 +7,8 @@ export const Hero = () => {
     loop: 0,
   });
   return (
-    <section className="mt-24 max-w-full bg-black p-8">
-      <div className="relative flex flex-col md:flex-row max-w-full justify-between gap-8 p-4 md:p-8">
+    <section className="my-24 max-w-full bg-black p-8">
+      <div className="relative text-center md:text-left flex flex-col md:flex-row max-w-full justify-between gap-8 p-4 md:p-8">
         <div className="max-w-5xl md:pl-12">
           <div className="flex flex-col gap-4">
             <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl">
