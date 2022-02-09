@@ -24,9 +24,8 @@ export const Hero = () => {
             </p>
           </div>
         </div>
-        {/* <div className="md:absolute md:-right-10 md:top-0 md:bottom-0 flex md:w-96 w-full overflow-hidden md:min-h-[350]"> */}
-        <div className="md:mb-22 relative mb-56 w-screen md:w-screen">
-          <div className="absolute top-0 bottom-0 flex min-h-[300px] w-full overflow-hidden md:-top-10 md:-right-20 md:min-h-[350px] md:w-96">
+        <div className="md:mb-22 relative mb-56 w-screen">
+          <div className="absolute inset-0 left-auto flex min-h-[300px] w-full overflow-hidden md:-top-10 md:-right-20 md:min-h-[350px] md:w-96">
             <div className="w-full rounded-[50px] bg-gradient-to-r from-light-purple to-light-blue p-1 md:rounded-r-none">
               <div className="h-full rounded-[50px] bg-black md:rounded-r-none">
                 <div className="bg-gradient-to-r from-light-purple to-light-blue bg-clip-text">
