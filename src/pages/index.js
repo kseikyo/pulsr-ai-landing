@@ -1,3 +1,4 @@
+import { Features } from "../components/Features";
 import { Footer } from "../components/Footer";
 import { GifContainer } from "../components/GifContainer";
 import { Header } from "../components/Header";
@@ -13,6 +14,13 @@ export default function Home() {
       <main className="mb-24 bg-black md:mx-auto md:max-w-[1650px]">
         <GifContainer />
       </main>
+      <div className="overflow-hidden">
+        <div className="my-48">
+          <div className="px-8 md:px-20">
+            <Features />
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );
