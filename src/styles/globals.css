@@ -3,12 +3,34 @@
 @tailwind utilities;
 
 @layer base {
-
-
 }
 
 @layer components {
   .btn-cta {
-    @apply inline-flex items-center rounded-full border border-transparent bg-gradient-to-r from-light-purple to-light-blue px-12 py-2 text-base font-medium text-black shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2;
+    @apply relative z-50 inline-flex items-center rounded-full border border-transparent bg-gradient-to-r from-light-purple to-light-blue px-12 py-2 text-base font-medium text-black shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-1;
   }
+}
+
+/* As gradients don't support transition, this is a simple workaround 
+   We create a before element with the desired colors and place it on top of
+   the parent and leave it with opacity 0. Then on hover, just transition the
+   opacity.
+*/
+.btn-cta::before {
+  border-radius: inherit;
+  background-image: linear-gradient(to right, #5aadff, #ca94ff);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  z-index: -100;
+  transition: opacity 0.55s;
+}
+
+.btn-cta:hover::before {
+  opacity: 1;
 }
