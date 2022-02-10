@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export const Features = ({}) => {
   return (
-    <div className="space-y-40">
-      <section className="mx-auto grid w-full grid-cols-1 gap-8 bg-black md:max-w-[1650px] md:grid-cols-2">
+    <div className="space-y-56">
+      <section className="mx-auto z-0 grid w-full grid-cols-1 gap-8 bg-black md:max-w-[1650px] md:grid-cols-2">
         <div className="relative row-start-2 flex flex-col gap-6 md:row-start-1">
-          <div className="absolute inset-0 -left-16 hidden h-[80%] w-[60%] rounded-full bg-gradient-to-r from-light-purple to-light-blue opacity-[0.15] blur-3xl md:block"></div>
+          <div className="absolute z-0 inset-0 -left-16 hidden h-[80%] w-[60%] rounded-full bg-gradient-to-r from-light-purple to-light-blue opacity-[0.15] blur-3xl md:block"></div>
           <h3 className="text-[2.5rem] font-semibold text-white md:text-6xl md:leading-snug">
             Use your vibe to <br />
             find your tribe.
@@ -15,7 +15,7 @@ export const Features = ({}) => {
           </p>
           <a
             href="#"
-            className="btn-cta mt-8 flex w-full items-center justify-center space-x-4 md:max-w-xs"
+            className="btn-cta z-10 mt-8 flex w-full items-center justify-center space-x-4 md:max-w-xs"
           >
             <Image width={24} height={24} src="/svgs/discord-black.svg" alt="discord-icon" />
             <span className="text-lg font-medium">Join our community</span>
