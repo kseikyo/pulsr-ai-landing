@@ -1,5 +1,10 @@
 {
   "private": true,
+  "author": {
+    "name": "Lucas Sierota",
+    "email": "contact@lucassierota.dev",
+    "url": "https://lucassierota.dev"
+  },
   "scripts": {
     "dev": "next dev",
     "build:next": "next build",
