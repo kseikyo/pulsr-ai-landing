@@ -22,7 +22,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mt-12 mb-48 flex items-center justify-center px-8 backdrop-blur-3xl">
+      <div className="mt-12 mb-48 flex items-center justify-center px-8 lg:backdrop-blur-3xl">
         <div className="rounded-xl border-[1px] border-white/[51%] bg-white/10 p-8 shadow md:w-2/3 md:p-16 ">
           <div className="flex flex-col items-center gap-4">
             <div className="flex items-center justify-center gap-4">

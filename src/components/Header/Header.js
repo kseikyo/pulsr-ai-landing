@@ -11,7 +11,7 @@ export const Header = () => {
         <div className="flex items-center justify-between px-4 py-5 sm:px-6 sm:py-4 md:justify-start md:space-x-10 lg:px-8">
           <div>
             <a href="#" className="flex">
-              <span className="relative text-2xl font-bold text-white after:absolute after:bottom-0 after:left-0 after:right-0 after:h-1 after:w-full after:bg-gradient-to-r after:from-light-purple after:to-light-blue after:content-['']">
+              <span className="relative text-4xl font-bold text-white after:absolute after:bottom-0 after:left-0 after:right-0 after:h-1 after:w-full after:bg-gradient-to-r after:from-light-purple after:to-light-blue after:content-['']">
                 pulsr
               </span>
             </a>
@@ -58,7 +58,7 @@ export const Header = () => {
               <div className="flex items-center justify-between">
                 <div>
                   <a href="#" className="flex">
-                    <span className="relative text-2xl font-bold text-white after:absolute after:bottom-0 after:left-0 after:right-0 after:h-1 after:w-full after:bg-gradient-to-r after:from-light-purple after:to-light-blue after:content-['']">
+                    <span className="relative text-4xl font-bold text-white after:absolute after:bottom-0 after:left-0 after:right-0 after:h-1 after:w-full after:bg-gradient-to-r after:from-light-purple after:to-light-blue after:content-['']">
                       pulsr
                     </span>
                   </a>

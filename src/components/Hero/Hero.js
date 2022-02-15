@@ -30,7 +30,7 @@ export const Hero = () => {
               <div className="h-full rounded-[50px] bg-black md:rounded-r-none">
                 <div className="bg-gradient-to-r from-light-purple to-light-blue bg-clip-text">
                   <div className="flex flex-col gap-3 px-6 py-8 md:px-11">
-                    <span className="text-4xl text-transparent md:text-5xl">
+                    <span className="text-4xl font-medium text-transparent md:text-5xl">
                       Member's <br />
                       portal
                     </span>
